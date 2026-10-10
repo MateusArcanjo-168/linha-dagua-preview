@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Peixe escapando</title>
+  <desc id="desc">Silhueta de um peixe mergulhando entre ondas e gotas.</desc>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#75d7c3"/>
+      <stop offset="1" stop-color="#2a7f8c"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2d777"/>
+      <stop offset="1" stop-color="#d29143"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#water)" stroke-linecap="round">
+    <path d="M35 179c38-19 64 19 103 0s66 18 108 0 55 7 55 7" stroke-width="9" opacity=".72"/>
+    <path d="M61 207c31-14 51 12 82 0s53 11 84 0 42 5 42 5" stroke-width="6" opacity=".38"/>
+  </g>
+  <g transform="translate(157 112) rotate(-18)">
+    <path d="M-72 0c27-42 85-47 123-7 10-12 24-20 41-22-3 16-3 31 4 48-17-1-32-7-45-18C13 43-45 42-72 0Z" fill="url(#fish)"/>
+    <path d="M-31-24c15-23 37-27 51-24-6 13-17 23-33 30" fill="#f7e6a7" opacity=".55"/>
+    <circle cx="-44" cy="-7" r="5" fill="#163b42"/>
+    <path d="M-60 12c25 8 48 7 70-3" fill="none" stroke="#fff4c9" stroke-width="4" opacity=".38"/>
+  </g>
+  <g fill="url(#water)">
+    <path d="M91 84c-10-18 4-27 12-39 8 12 20 25 10 39-5 8-17 8-22 0Z" opacity=".82"/>
+    <path d="M231 58c-7-13 3-20 9-29 6 9 14 18 7 29-4 6-12 6-16 0Z" opacity=".55"/>
+    <circle cx="62" cy="119" r="7" opacity=".5"/>
+    <circle cx="259" cy="112" r="5" opacity=".42"/>
+  </g>
+</svg>
