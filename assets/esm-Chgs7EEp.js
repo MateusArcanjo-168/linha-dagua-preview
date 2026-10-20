@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-BP-1yMvb.js","./dist-Btb5Jv1E.js"])))=>i.map(i=>d[i]);
+import{r as e}from"./dist-Btb5Jv1E.js";import{t}from"./preload-helper-HclGiUj8.js";var n=e(`App`,{web:()=>t(()=>import(`./web-BP-1yMvb.js`).then(e=>new e.AppWeb),__vite__mapDeps([0,1]),import.meta.url)});export{n as App};
